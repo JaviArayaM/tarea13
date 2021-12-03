@@ -29,7 +29,7 @@ def dentroLogin():
         if (loginop == 0):
              print ('Finalizado')
         elif (loginop == 1):
-             browser.get('https://www.booz.cl/login-exitoso')
+             browser.get('https://www.booz.cl/mi-cuenta')
              passwordCCold = browser.find_element_by_id('password1') #contraseña antigua
              passwordCCold.send_keys('admin123')
              passwordCCnueva = browser.find_element_by_id('password2') #nueva contraseña
